@@ -18,6 +18,14 @@ app.listen(3000,()=>{
 app.get('/',(req,res)=>{
     res.send('This is home page')
 })
+app.get('/r/:subreddit',(req,res)=>{
+    const{subreddit} = req.params;
+    res.send(`<h1>Browsing the ${subreddit} page</h1>`)
+})
+app.get('/r/:subreddit/:postID',(req,res)=>{
+    const {subreddit, postID} = req.params;
+    res.send(`<h1>Browsing the ${subreddit} subreddit with post id of ${postID}</h1>`);
+})
 app.post('/cats',(req,res)=>{
     res.send("this is a post request")
 })
