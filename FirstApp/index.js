@@ -38,6 +38,16 @@ app.get('/dogs',(req,res)=>{
     res.send('woof');
 })
 
+app.get('/search',(req,res)=>{
+    const {q} = req.query;
+    console.log(q);
+    if(!q){
+        res.send('nothing found if nothing searched');
+    }
+    res.send(`<h1>Search results from: ${q}</h1>`);
+})
+
+
 app.get('*',(req,res)=>{
     res.send('idunno that path!')
 })
