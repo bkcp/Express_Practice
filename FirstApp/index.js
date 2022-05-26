@@ -16,7 +16,7 @@ app.listen(3000,()=>{
 // /dogs => 'woof'
 
 app.get('/',(req,res)=>{
-    res.send('This is home page')
+    res.send('This is the home page!!')
 })
 app.get('/r/:subreddit',(req,res)=>{
     const{subreddit} = req.params;
