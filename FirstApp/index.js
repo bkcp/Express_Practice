@@ -18,6 +18,9 @@ app.listen(3000,()=>{
 app.get('/',(req,res)=>{
     res.send('This is the home page!!')
 })
+app.get('/home',(req,res)=>{
+    res.render('home');
+})
 app.get('/r/:subreddit',(req,res)=>{
     const{subreddit} = req.params;
     res.send(`<h1>Browsing the ${subreddit} page</h1>`)
@@ -47,6 +50,9 @@ app.get('/search',(req,res)=>{
     res.send(`<h1>Search results from: ${q}</h1>`);
 })
 
+app.get('/rand', (req,res)=>{
+    res.render('random')
+})
 
 app.get('*',(req,res)=>{
     res.send('idunno that path!')
