@@ -8,5 +8,18 @@
 </head>
 <body>
     <h1>Browsing the <%= name %> subreddit</h1>
+    <h2> <%= description %> </h2>
+    <p> <%= subscribers %> total subscribers </p>
+    <hr>
+    <% for (let post of posts){ %>
+        <article>
+        <h3> <%= post.title %> </h3>
+        <h4> - <%= post.author %> </h4>
+        <% if(post.img){ %>
+            <img src="<%= post.img %>" alt="">
+        <% } %>
+
+    </article>
+    <%} %>
 </body>
 </html>
