@@ -1,0 +1,62 @@
+{
+    "soccer": {
+        "name": "Soccer",
+        "subscribers": 8000,
+        "description": "The football subreddit. News, results and discussion",
+        "posts": [
+            {
+                "title": "Marten de Roon to make pizza for more than 1,000people after game",
+                "author": "joeextreme"
+            },
+            {
+                "title": "Stephan Lichtsteiner has retired from professional futbol",
+                "author": "odd dude"            
+            },
+            {
+                "title": "Official: Dani Parejo signs for Villareal.",
+                "author": "joeextreme"
+            }
+        ]
+    },
+
+    "chickens": {
+        "name": "Chickens",
+        "subscribers": 23956,
+        "description": "A place to post your photos, video and questions about chickens",
+        "posts": [
+            {
+                "title": "Naughty chicken hid under shed for 3 weeks",
+                "author": "ted nugent",
+                "img": "https://cdn.mos.cms.futurecdn.net/BX7vjSt8KMtcBHyisvcSPK-970-80.jpg.webp"
+            },
+            {
+                "title": "Had to kill my first chicken today, does it ever get easier?",
+                "author": "bud billington",
+                "img": "https://en.wikipedia.org/wiki/Chicken_as_food#/media/File:Chickens_in_market.jpg"
+
+            }
+        ]
+    },
+
+    "synths": {
+        "name": "Synths",
+        "subscribers": 3434,
+        "description": "A hub for patchers and tweekers",
+        "posts": [
+            {
+                "title": "Make Noise vs Intellijel, two titans of eurorack",
+                "author": "westcoast simp",
+                "img": "https://www.electronicbeats.net/app/uploads/fly-images/131189/eurorackcolors-682x355-c.jpg"
+            },
+            {
+                "title": "How to get started in the modular world",
+                "author": "tim tuggins",
+                "img": "https://en.wikipedia.org/wiki/Eurorack#/media/File:Eurorack_Modular_Synthesizer.jpg"
+            },
+            {
+                "title": "Generative ambient do's and don'ts",
+                "author": "westcoast simp"
+            }
+        ]
+    }
+}
